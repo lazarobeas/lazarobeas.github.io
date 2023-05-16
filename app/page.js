@@ -1,9 +1,6 @@
 import Image from 'next/image';
-import {BsFillMoonStarsFill, BsLinkedin, BsYoutube, BsTwitter, BsMedium} from "react-icons/bs";
+import {BsFillMoonStarsFill, BsLinkedin, BsYoutube, BsMedium} from "react-icons/bs";
 import {GoMarkGithub} from "react-icons/go";
-import headshotLBEAS from "../public/headshotLBEAS.jpg";
-import code from "../public/code.png";
-import design from "../public/design.png";
 import {SiHtml5, SiJavascript, SiCss3, SiReact, SiTailwindcss, SiBootstrap, SiPython, SiDjango, SiPandas, SiNumpy, SiTensorflow, SiJetbrains, SiScikitlearn, SiSelenium, SiCplusplus, SiGithub, SiNodedotjs, SiDocker, SiGulp, SiGit, SiMongodb, } from "react-icons/si";
 
 
@@ -28,7 +25,7 @@ export default function Home() {
               </ul>
           </nav>
           <div className="relative mx-auto rounded-full w-80 h-80 mt-20">
-              <Image src="/headshotLBEAS.jpg"/>
+              <Image src="/headshotLBEAS.jpg" alt="my beautiful face"/>
           </div>
           <div className="text-center p-10">
               <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">Lazaro Beas</h2>
@@ -125,7 +122,7 @@ export default function Home() {
             <div className="flex-1 flex-wrap w-50 h-50">
                 <ul className="flex-2 flex-wrap">
                     <li className="flex-5 flex-col-reverse px-12">
-                        <Image src="/code.png"></Image>
+                        <Image src="/code.png" alt="Code Icon"/>
                         <h4 className="text-4xl font-semibold pt-1 pb-6 text-right">
                             NBA Player Point Prediction Model
                         </h4>
@@ -138,7 +135,7 @@ export default function Home() {
                             created my own dataset containing a player game splits for their entire career.
                             I preprocessed data by creating dummy variables for new features such as home/away game advantage,
                             and binarized the target variable based on a threshold of x points. Source code can be found
-                            <a href="https://github.com/lazarobeas/NBAProject"><span className="text-teal-600" src> here </span></a>or you can check my Github.
+                            <a href="https://github.com/lazarobeas/NBAProject"><span className="text-teal-600"> here </span></a>or you can check my Github.
                             You can also click the blue icon to try it out yourself!</p>
                     </li>
                 </ul>
@@ -148,7 +145,7 @@ export default function Home() {
             <div className="flex-1 flex-wrap w-50 h-50">
                 <ul className="flex-2 flex-wrap">
                     <div className="flex origin-right px-10">
-                    <Image src="/design.png"></Image>
+                    <Image src="/design.png" alt="Design icon"/>
                     </div>
                     <li className="flex-5 flex-col text-right">
                         <h4 className="text-4xl font-semibold pt-1 pb-6">

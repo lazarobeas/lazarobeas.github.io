@@ -28,7 +28,7 @@ export default function Home() {
               </ul>
           </nav>
           <div className="relative mx-auto rounded-full w-80 h-80 mt-20">
-              <Image src={headshotLBEAS}/>
+              <Image src="/public/headshotLBEAS.jpg"/>
           </div>
           <div className="text-center p-10">
               <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">Lazaro Beas</h2>

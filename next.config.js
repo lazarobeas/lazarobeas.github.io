@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+};
+
+module.exports = {
     basePath: process.env.BASE_PATH,
     assetPrefix: process.env.BASE_PATH,
-}
-
-module.exports = nextConfig
+    output: "export",
+};

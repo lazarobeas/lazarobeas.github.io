@@ -25,7 +25,7 @@ export default function Home() {
               </ul>
           </nav>
           <div className="relative mx-auto rounded-full w-80 h-80 mt-20">
-              <Image src="/headshotLBEAS.jpg" alt="my beautiful face"/>
+              <img src="/headshotLBEAS.jpg" alt="my beautiful face"/>
           </div>
           <div className="text-center p-10">
               <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">Lazaro Beas</h2>
@@ -122,7 +122,7 @@ export default function Home() {
             <div className="flex-1 flex-wrap w-50 h-50">
                 <ul className="flex-2 flex-wrap">
                     <li className="flex-5 flex-col-reverse px-12">
-                        <Image src="/code.png" alt="Code Icon"/>
+                        <img src="/code.png" alt="Code Icon"/>
                         <h4 className="text-4xl font-semibold pt-1 pb-6 text-right">
                             NBA Player Point Prediction Model
                         </h4>
@@ -145,7 +145,7 @@ export default function Home() {
             <div className="flex-1 flex-wrap w-50 h-50">
                 <ul className="flex-2 flex-wrap">
                     <div className="flex origin-right px-10">
-                    <Image src="/design.png" alt="Design icon"/>
+                    <img src="/design.png" alt="Design icon"/>
                     </div>
                     <li className="flex-5 flex-col text-right">
                         <h4 className="text-4xl font-semibold pt-1 pb-6">

@@ -4,7 +4,7 @@ import {GoMarkGithub} from "react-icons/go";
 import headshotLBEAS from "../public/headshotLBEAS.jpg";
 import code from "../public/code.png";
 import design from "../public/design.png";
-import {SiHtml5, SiJavascript, SiCss3, SiReact, SiTailwindcss, SiBootstrap, SiPython, SiDjango, SiPandas, SiNumpy, SiTensorflow, SiJetbrains, SiScikitlearn, SiSelenium, SiCplusplus, SiGithub, SiNextdotjs, SiNodedotjs, SiDocker, SiYarn, SiGulp, SiGit, SiMongodb, SiSqlite, } from "react-icons/si";
+import {SiHtml5, SiJavascript, SiCss3, SiReact, SiTailwindcss, SiBootstrap, SiPython, SiDjango, SiPandas, SiNumpy, SiTensorflow, SiJetbrains, SiScikitlearn, SiSelenium, SiCplusplus, SiGithub, SiNodedotjs, SiDocker, SiGulp, SiGit, SiMongodb, } from "react-icons/si";
 
 
 export default function Home() {
@@ -34,7 +34,7 @@ export default function Home() {
               <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">Lazaro Beas</h2>
               <h3 className="text-xl py-2 md:text-3xl">Software Engineer ● Full Stack Developer ● Student</h3>
               <p className="text-md py-4 leading-8 text-gray-800 md:text-xl">
-                  Computer Science & Finance double major at the University of Texas Rio Grande Valley. My first love is
+                  I am a Junior Computer Science & Finance double major at the University of Texas Rio Grande Valley. My first love is
                   Python but am currently learning C++ and R. I enjoy programming and am currently seeking an data science/software engineering internship
                   or a freelance gig. I am a big fan of problem solving and love managing data. In my spare time,
                   you can find me mountain biking, watching sports, reading, or looking at charts. Swain main for life.
@@ -163,7 +163,7 @@ export default function Home() {
                             created my own dataset containing a player game splits for their entire career.
                             I preprocessed data by creating dummy variables for new features such as home/away game advantage,
                             and binarized the target variable based on a threshold of x points. Source code can be found
-                            <a href="https://github.com/lazarobeas/NBAProject"><span className="text-teal-600" src> here </span></a>or you can check my Github.
+                            <a href="https://github.com/lazarobeas/NBAProject"><span className="text-teal-600"> here </span></a>or you can check my Github.
                             You can also click the blue icon to try it out yourself!</p>
                     </li>
                 </ul>

@@ -3,7 +3,6 @@ import {BsFillMoonStarsFill, BsLinkedin, BsYoutube, BsMedium} from "react-icons/
 import {GoMarkGithub} from "react-icons/go";
 import {SiHtml5, SiJavascript, SiCss3, SiReact, SiTailwindcss, SiBootstrap, SiPython, SiDjango, SiPandas, SiNumpy, SiTensorflow, SiJetbrains, SiScikitlearn, SiSelenium, SiCplusplus, SiGithub, SiNodedotjs, SiDocker, SiGulp, SiGit, SiMongodb, } from "react-icons/si";
 
-
 export default function Home() {
   return (
     <main className="bg-white px-10 md:px-20 lg:px-40">
@@ -12,11 +11,8 @@ export default function Home() {
               <h1 className="text-xl font-burtons">🇲🇽 🇺🇸</h1>
               <ul className="flex items-center">
                   <li>
-                      <BsFillMoonStarsFill className="cursor-pointer text-2xl"/>
-                  </li>
-                  <li>
                       <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-3 py-2 rounded-xl ml-5"
-                          href="https://drive.google.com/file/d/1qUQXQmMUz1tfeo6I7bvzr6Bp4l1XoC8M/view?usp=share_link">
+                          href="https://drive.google.com/file/d/1XELoNspWbiK1Ufo_hmZF_HXKTGOGffY7/view?usp=sharing">
                           Resume</a>
                   </li>
                   {/*<li>*/}
@@ -149,19 +145,18 @@ export default function Home() {
                     </div>
                     <li className="flex-5 flex-col text-right">
                         <h4 className="text-4xl font-semibold pt-1 pb-6">
-                            FindADev Django Web App
+                            Prizepicks Webscraper
                         </h4>
                     </li>
                     <li className="flex-3 flex-col text-right">
-                        <p>Using Python, Sci-kit, and Pandas, I developed a logistic
-                            regression model to predict whether an NBA player would score over x points in a given
-                            NBA game based on historical game data. The model accuracy ranged from 65%-33% with an
-                            average of 54% in a 1-month period. I also leveraged NBA-API to facilitate data collection and
-                            created my own dataset containing a player game splits for their entire career.
-                            I preprocessed data by creating dummy variables for new features such as home/away game advantage,
-                            and binarized the target variable based on a threshold of x points. Source code can be found
-                            <a href="https://github.com/lazarobeas/NBAProject"><span className="text-teal-600"> here </span></a>or you can check my Github.
-                            You can also click the blue icon to try it out yourself!</p>
+                        <p>Using Python, Selenium, and Pandas, I succesfully built a webscraper that can be deployed on the PrizePicks DFS website
+                            and retrieves all of the posted lines and props for a specific sport. It then renders all of the data
+                            into a .csv file filtered by player, prop type, and sport. This data is stored in a local database to make prop research more efficient.
+                            Source code can be found
+                            <a href="https://github.com/lazarobeas/prizepicks-prop-scraper"><span className="text-teal-600"> here </span></a>or you can check out my
+                            <a href="https://youtu.be/UD50Js6YdNI"><span className="text-teal-600"> YouTube </span></a>channel for a
+                                tutorial.
+                            </p>
                     </li>
                 </ul>
             </div>

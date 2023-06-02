@@ -118,7 +118,9 @@ export default function Home() {
             <div className="flex-1 flex-wrap w-50 h-50">
                 <ul className="flex-2 flex-wrap">
                     <li className="flex-5 flex-col-reverse px-12">
+                        <a href="https://docs.google.com/spreadsheets/d/1JjVqBsqoU3qqfsUkjiXeffaH_QrMxBilMITxa--Vo9I/edit?usp=sharing">
                         <img src="/code.png" alt="Code Icon"/>
+                        </a>
                         <h4 className="text-4xl font-semibold pt-1 pb-6 text-right">
                             NBA Player Point Prediction Model
                         </h4>

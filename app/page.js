@@ -125,7 +125,7 @@ export default function Home() {
                     <li className="flex-5 flex-col-reverse px-12">
                         <div>
                             <a href="http://propsniper.io">
-                            <img src="/home.PNG" alt="Homepage propsniper.io"/>
+                            <img src="/home.png" alt="Homepage propsniper.io"/>
                             </a>
                         </div>
                         <h4 className="text-4xl font-semibold pt-5 pb-6 text-right">

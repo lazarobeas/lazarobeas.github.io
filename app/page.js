@@ -1,7 +1,13 @@
 import Image from 'next/image';
 import {BsFillMoonStarsFill, BsLinkedin, BsYoutube, BsMedium} from "react-icons/bs";
 import {GoMarkGithub} from "react-icons/go";
-import {SiHtml5, SiJavascript, SiCss3, SiReact, SiTailwindcss, SiBootstrap, SiPython, SiDjango, SiPandas, SiNumpy, SiTensorflow, SiJetbrains, SiScikitlearn, SiSelenium, SiCplusplus, SiGithub, SiNodedotjs, SiDocker, SiGulp, SiGit, SiMongodb, } from "react-icons/si";
+import {
+    SiHtml5, SiJavascript, SiCss3, SiReact,
+    SiTailwindcss, SiBootstrap, SiPython,
+    SiDjango, SiPandas, SiNumpy, SiTensorflow,
+    SiJetbrains, SiScikitlearn, SiSelenium,
+    SiCplusplus, SiGithub, SiNextdotjs, SiDocker,
+    SiGulp, SiGit, SiMongodb, SiChakraui} from "react-icons/si";
 
 export default function Home() {
   return (
@@ -69,7 +75,7 @@ export default function Home() {
                     <p className="text-gray-800 px-1"><SiCss3/>CSS</p>
                     <p className="text-gray-800 px-1"><SiReact/>React</p>
                     <p className="text-gray-800 px-1 py-1"><SiTailwindcss/>Tailwind CSS</p>
-                    <p className="text-gray-800 px-1 py-2"><SiBootstrap/>Bootstrap</p>
+                    <p className="text-gray-800 px-1 py-1"><SiChakraui/>Chakra UI</p>
                   </div>
                   <h4 className="text-md pt-4 text-center justify-self-center">
                       My preferred technologies for front-end web development and component design.
@@ -81,12 +87,11 @@ export default function Home() {
                   </h3>
                   <div className="flex flex-wrap gap-8 text-3xl justify-evenly mt-5">
                       <p className="text-gray-800 px-1"><SiDjango/>Django</p>
-                      <p className="text-gray-800 px-1"><SiNodedotjs/>Node.js</p>
+                      <p className="text-gray-800 px-1"><SiNextdotjs/>Next.js</p>
                       <p className="text-gray-800 px-1"><SiGulp/>Gulp</p>
                       <p className="text-gray-800 px-1"><SiMongodb/>MongoDB</p>
                       <p className="text-gray-800 px-1"><SiPandas/>Pandas</p>
                       <p className="text-gray-800 px-1"><SiScikitlearn/>Sci-kit</p>
-                      <p className="text-gray-800 px-1"><SiTensorflow/>TensorFlow</p>
                       <p className="text-gray-800 py-1"><SiSelenium/>Selenium</p>
                       <p className="text-gray-800 py-1"><SiNumpy/>Numpy</p>
                   </div>
@@ -118,21 +123,24 @@ export default function Home() {
             <div className="flex-1 flex-wrap w-50 h-50">
                 <ul className="flex-2 flex-wrap">
                     <li className="flex-5 flex-col-reverse px-12">
-                        <a href="http://propsniper.io">
-                        <img src="/code.png" alt="Code Icon"/>
-                        </a>
-                        <h4 className="text-4xl font-semibold pt-1 pb-6 text-right">
+                        <div>
+                            <a href="http://propsniper.io">
+                            <img src="/home.PNG" alt="Homepage propsniper.io"/>
+                            </a>
+                        </div>
+                        <h4 className="text-4xl font-semibold pt-5 pb-6 text-right">
                             NBA Player Point Prediction Model
                         </h4>
                     </li>
                     <li className="flex-3 flex-col text-right">
-                        <p>Using Python, Sci-kit, and Pandas, I developed a logistic
+                        <p> Back-end built using Python, Sci-kit, and Pandas. I developed a logistic
                             regression model to predict whether an NBA player would score over x points in a given
                             NBA game based on historical game data. The model accuracy ranged from 65%-33% with an
                             average of 54% in a 1-month period. I also leveraged NBA-API to facilitate data collection and
                             created my own dataset containing a player game splits for their entire career.
                             I preprocessed data by creating dummy variables for new features such as home/away game advantage,
-                            and binarized the target variable based on a threshold of x points. Source code can be found
+                            and binarized the target variable based on a threshold of x points. Front-end built with Next.js
+                            and Chakra UI. I also routed RESTful APIs that interacts with the player models and front end. Source code can be found
                             <a href="https://github.com/lazarobeas/NBAProject"><span className="text-teal-600"> here </span></a>or you can check my Github.
                             You can also click the blue icon to try it out yourself!</p>
                     </li>

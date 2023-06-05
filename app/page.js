@@ -123,11 +123,9 @@ export default function Home() {
             <div className="flex-1 flex-wrap w-50 h-50">
                 <ul className="flex-2 flex-wrap">
                     <li className="flex-5 flex-col-reverse px-12">
-                        <div>
                             <a href="http://propsniper.io">
-                            <img src="/home.png" alt="Homepage propsniper.io"/>
+                            <img src="/home.png" alt="Homepage propsniper.io" width={500} height={300} />
                             </a>
-                        </div>
                         <h4 className="text-4xl font-semibold pt-5 pb-6 text-right">
                             NBA Player Point Prediction Model
                         </h4>

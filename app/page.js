@@ -7,7 +7,7 @@ import {
     SiDjango, SiPandas, SiNumpy, SiTensorflow,
     SiJetbrains, SiScikitlearn, SiSelenium,
     SiCplusplus, SiGithub, SiNextdotjs, SiDocker,
-    SiGulp, SiGit, SiMongodb, SiChakraui, SiFigma
+    SiGulp, SiGit, SiMongodb, SiChakraui, SiFigma, SiNodedotjs
 } from "react-icons/si";
 
 export default function Home() {
@@ -75,6 +75,7 @@ export default function Home() {
                     <p className="text-gray-800 px-1"><SiHtml5/>HTML5</p>
                     <p className="text-gray-800 px-1"><SiCss3/>CSS</p>
                     <p className="text-gray-800 px-1"><SiReact/>React</p>
+                    <p className="text-gray-800 px-1"><SiNextdotjs/>Next.js</p>
                     <p className="text-gray-800 px-1"><SiFigma/>Figma</p>
                     <p className="text-gray-800 px-1 py-1"><SiTailwindcss/>Tailwind CSS</p>
                     <p className="text-gray-800 px-1 py-1"><SiChakraui/>Chakra UI</p>
@@ -89,7 +90,7 @@ export default function Home() {
                   </h3>
                   <div className="flex flex-wrap gap-8 text-3xl justify-evenly mt-5">
                       <p className="text-gray-800 px-1"><SiDjango/>Django</p>
-                      <p className="text-gray-800 px-1"><SiNextdotjs/>Next.js</p>
+                      <p className="text-gray-800 px-1"><SiNodedotjs/>Node.js</p>
                       <p className="text-gray-800 px-1"><SiGulp/>Gulp</p>
                       <p className="text-gray-800 px-1"><SiMongodb/>MongoDB</p>
                       <p className="text-gray-800 px-1"><SiPandas/>Pandas</p>

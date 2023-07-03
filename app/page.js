@@ -3,11 +3,11 @@ import {BsFillMoonStarsFill, BsLinkedin, BsYoutube, BsMedium} from "react-icons/
 import {GoMarkGithub} from "react-icons/go";
 import {
     SiHtml5, SiJavascript, SiCss3, SiReact,
-    SiTailwindcss, SiBootstrap, SiPython,
-    SiDjango, SiPandas, SiNumpy, SiTensorflow,
+    SiTailwindcss, SiPython,
+    SiDjango, SiPandas, SiNumpy,
     SiJetbrains, SiScikitlearn, SiSelenium,
     SiCplusplus, SiGithub, SiNextdotjs, SiDocker,
-    SiGulp, SiGit, SiMongodb, SiChakraui, SiFigma, SiNodedotjs, SiYarn, SiTypescript
+    SiGit, SiMongodb, SiChakraui, SiNodedotjs, SiYarn, SiTypescript
 } from "react-icons/si";
 
 export default function Home() {

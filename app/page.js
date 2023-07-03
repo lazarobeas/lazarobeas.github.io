@@ -33,7 +33,7 @@ export default function Home() {
               <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">Lazaro Beas</h2>
               <h3 className="text-xl py-2 md:text-3xl">Software Engineer ● Full Stack Developer ● Student</h3>
               <p className="text-md py-4 leading-8 text-gray-800 md:text-xl">
-                  I am a Junior Computer Science & Finance double major at the University of Texas Rio Grande Valley. My first love is
+                  I am a hardworking Senior Computer Science & Finance double major at the University of Texas Rio Grande Valley. My first love is
                   Python but am currently learning C++ and R. I enjoy programming and am currently seeking an data science/software engineering internship
                   or a freelance gig. I am a big fan of problem solving and love managing data. I also have experience working
                   in teams. In my spare time,

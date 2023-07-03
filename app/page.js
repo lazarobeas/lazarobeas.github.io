@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import {BsFillMoonStarsFill, BsLinkedin, BsYoutube, BsMedium} from "react-icons/bs";
+import { BsLinkedin, BsYoutube, BsMedium} from "react-icons/bs";
 import {GoMarkGithub} from "react-icons/go";
 import {
     SiHtml5, SiJavascript, SiCss3, SiReact,

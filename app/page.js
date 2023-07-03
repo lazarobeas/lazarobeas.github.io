@@ -7,7 +7,7 @@ import {
     SiDjango, SiPandas, SiNumpy, SiTensorflow,
     SiJetbrains, SiScikitlearn, SiSelenium,
     SiCplusplus, SiGithub, SiNextdotjs, SiDocker,
-    SiGulp, SiGit, SiMongodb, SiChakraui, SiFigma, SiNodedotjs
+    SiGulp, SiGit, SiMongodb, SiChakraui, SiFigma, SiNodedotjs, SiYarn
 } from "react-icons/si";
 
 export default function Home() {
@@ -91,7 +91,7 @@ export default function Home() {
                   <div className="flex flex-wrap gap-8 text-3xl justify-evenly mt-5">
                       <p className="text-gray-800 px-1"><SiDjango/>Django</p>
                       <p className="text-gray-800 px-1"><SiNodedotjs/>Node.js</p>
-                      <p className="text-gray-800 px-1"><SiGulp/>Gulp</p>
+                      <p className="text-gray-800 px-1"><SiYarn/>Yarn</p>
                       <p className="text-gray-800 px-1"><SiMongodb/>MongoDB</p>
                       <p className="text-gray-800 px-1"><SiPandas/>Pandas</p>
                       <p className="text-gray-800 px-1"><SiScikitlearn/>Sci-kit</p>

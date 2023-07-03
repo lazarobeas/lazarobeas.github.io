@@ -7,7 +7,8 @@ import {
     SiDjango, SiPandas, SiNumpy, SiTensorflow,
     SiJetbrains, SiScikitlearn, SiSelenium,
     SiCplusplus, SiGithub, SiNextdotjs, SiDocker,
-    SiGulp, SiGit, SiMongodb, SiChakraui} from "react-icons/si";
+    SiGulp, SiGit, SiMongodb, SiChakraui, SiFigma
+} from "react-icons/si";
 
 export default function Home() {
   return (
@@ -35,7 +36,7 @@ export default function Home() {
               <p className="text-md py-4 leading-8 text-gray-800 md:text-xl">
                   I am a Junior Computer Science & Finance double major at the University of Texas Rio Grande Valley. My first love is
                   Python but am currently learning C++ and R. I enjoy programming and am currently seeking an data science/software engineering internship
-                  or a freelance gig. I am a big fan of problem solving and love managing data. In my spare time,
+                  or a freelance gig. I am a big fan of problem solving and love managing data. I also have experience In my spare time,
                   you can find me mountain biking, watching sports, reading, or looking at charts. Swain main for life.
               </p>
           </div>
@@ -74,6 +75,7 @@ export default function Home() {
                     <p className="text-gray-800 px-1"><SiHtml5/>HTML5</p>
                     <p className="text-gray-800 px-1"><SiCss3/>CSS</p>
                     <p className="text-gray-800 px-1"><SiReact/>React</p>
+                    <p className="text-gray-800 px-1"><SiFigma/>Figma</p>
                     <p className="text-gray-800 px-1 py-1"><SiTailwindcss/>Tailwind CSS</p>
                     <p className="text-gray-800 px-1 py-1"><SiChakraui/>Chakra UI</p>
                   </div>
@@ -135,7 +137,9 @@ export default function Home() {
                             regression model to predict whether an NBA player would score over x points in a given
                             NBA game based on historical game data. The model accuracy ranged from 65%-33% with an
                             average of 54% in a 1-month period. I also leveraged NBA-API to facilitate data collection and
-                            created my own dataset containing a player game splits for their entire career.
+                            created my own dataset containing a player game splits. Used over 10,000 player data points to train various models,
+                            such as logistic regresssions, gradient boosting, & XGBoost. Feature engineering and hyperparameter tuning was also
+                            considered as I looked to prevent overfitting and high accuracy scores.
                             I preprocessed data by creating dummy variables for new features such as home/away game advantage,
                             and binarized the target variable based on a threshold of x points. Front-end built with Next.js
                             and Chakra UI. I also routed RESTful APIs that interacts with the player models and front end. Source code can be found
@@ -165,6 +169,48 @@ export default function Home() {
                             <a href="https://youtu.be/UD50Js6YdNI"><span className="text-teal-600"> YouTube </span></a>channel for a
                                 tutorial.
                             </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div className=" lg:flex flex-row text-right shadow-lg p-10 rounded-xl my-1  dark:bg-white flex-1">
+            <div className="flex-1 flex-wrap w-50 h-50">
+                <ul className="flex-2 flex-wrap">
+                    <div className="flex origin-right px-10">
+                        <img src="/greaterpharrchamber.PNG" alt="Design icon"/>
+                    </div>
+                    <li className="flex-5 flex-col text-right">
+                        <h4 className="text-4xl font-semibold pt-1 pb-6">
+                            Greater Pharr Chamber Website
+                        </h4>
+                    </li>
+                    <li className="flex-3 flex-col text-right">
+                        <p>This website was built for a client using Next.js, React, Tailwind CSS, Typescript, and Node. This was my first time trying the app router for
+                            Next.JS 13 and was a great learning experience making a lightweight, front-facing website with a modern tech stack. The website has CRUD functionality
+                            and an integrated 3rd party CRM software.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div className=" lg:flex flex-row text-right shadow-lg p-10 rounded-xl my-1  dark:bg-white flex-1">
+            <div className="flex-1 flex-wrap w-50 h-50">
+                <ul className="flex-2 flex-wrap">
+                    <div className="flex origin-right px-10">
+                        <img src="/hungrylion.PNG" alt="Design icon"/>
+                    </div>
+                    <li className="flex-5 flex-col text-right">
+                        <h4 className="text-4xl font-semibold pt-1 pb-6">
+                            Hack Weekly - Hungry Lion
+                        </h4>
+                    </li>
+                    <li className="flex-3 flex-col text-right">
+                        <p>Project was built for the Hack Weekly hackathon where hundreds of users create teams and compete against each other. We were tasked with
+                            building a recipe app client that showed recipes from an API. I worked on the design and front-end development for the project and learned in a group of 8
+                            how to use Figma to create a clean and modern UI for the front-end team. Our team was a group of 8 intermediate programmers and we all
+                            learned how communicate efficiently and hold each team accountable. Source code can be found
+                            <a href="https://github.com/Hack-Weekly/cerulean-lion-recipe-app"><span className="text-teal-600"> here. </span></a>
+                        </p>
                     </li>
                 </ul>
             </div>

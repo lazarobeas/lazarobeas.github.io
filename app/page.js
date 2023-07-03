@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import img from 'next/img';
 import { BsLinkedin, BsYoutube, BsMedium} from "react-icons/bs";
 import {GoMarkGithub} from "react-icons/go";
 import {
@@ -28,7 +28,7 @@ export default function Home() {
               </ul>
           </nav>
           <div className="relative mx-auto rounded-full w-80 h-80 mt-20">
-              <Image src="/headshotLBEAS.jpg" alt="my beautiful face"/>
+              <img src="/headshotLBEAS.jpg" alt="my beautiful face"/>
           </div>
           <div className="text-center p-10">
               <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">Lazaro Beas</h2>
@@ -127,7 +127,7 @@ export default function Home() {
                 <ul className="flex-2 flex-wrap">
                     <li className="flex-5 flex-col-reverse px-12">
                             <a href="http://propsniper.io">
-                            <Image src="/home.png" alt="Homepage propsniper.io" width={500} height={300} />
+                            <img src="/home.png" alt="Homepage propsniper.io" width={500} height={300} />
                             </a>
                         <h4 className="text-4xl font-semibold pt-5 pb-6 text-right">
                             NBA Player Point Prediction Model
@@ -154,7 +154,7 @@ export default function Home() {
             <div className="flex-1 flex-wrap w-50 h-50">
                 <ul className="flex-2 flex-wrap">
                     <div className="flex origin-right px-10">
-                    <Image src="/design.png" alt="Design icon"/>
+                    <img src="/design.png" alt="Design icon"/>
                     </div>
                     <li className="flex-5 flex-col text-right">
                         <h4 className="text-4xl font-semibold pt-1 pb-6">
@@ -178,7 +178,7 @@ export default function Home() {
             <div className="flex-1 flex-wrap w-50 h-50">
                 <ul className="flex-2 flex-wrap">
                     <div className="flex origin-right px-10">
-                        <Image src="/greaterpharrchamber.PNG" alt="Design icon" width={700} height={400}/>
+                        <img src="/greaterpharrchamber.PNG" alt="Design icon" width={700} height={400}/>
                     </div>
                     <li className="flex-5 flex-col text-right">
                         <h4 className="text-4xl font-semibold pt-1 pb-6">
@@ -204,7 +204,7 @@ export default function Home() {
             <div className="flex-1 flex-wrap w-50 h-50">
                 <ul className="flex-2 flex-wrap">
                     <div className="flex origin-right px-10">
-                        <Image src="/hungrylion.PNG" alt="Design icon" width={700} height={400}/>
+                        <img src="/hungrylion.PNG" alt="Design icon" width={700} height={400}/>
                     </div>
                     <li className="flex-5 flex-col text-right">
                         <h4 className="text-4xl font-semibold pt-1 pb-6">

@@ -7,7 +7,7 @@ import {
     SiDjango, SiPandas, SiNumpy, SiTensorflow,
     SiJetbrains, SiScikitlearn, SiSelenium,
     SiCplusplus, SiGithub, SiNextdotjs, SiDocker,
-    SiGulp, SiGit, SiMongodb, SiChakraui, SiFigma, SiNodedotjs, SiYarn
+    SiGulp, SiGit, SiMongodb, SiChakraui, SiFigma, SiNodedotjs, SiYarn, SiTypescript
 } from "react-icons/si";
 
 export default function Home() {
@@ -36,8 +36,9 @@ export default function Home() {
               <p className="text-md py-4 leading-8 text-gray-800 md:text-xl">
                   I am a Junior Computer Science & Finance double major at the University of Texas Rio Grande Valley. My first love is
                   Python but am currently learning C++ and R. I enjoy programming and am currently seeking an data science/software engineering internship
-                  or a freelance gig. I am a big fan of problem solving and love managing data. I also have experience In my spare time,
-                  you can find me mountain biking, watching sports, reading, or looking at charts. Swain main for life.
+                  or a freelance gig. I am a big fan of problem solving and love managing data. I also have experience working
+                  in teams. In my spare time,
+                  you can find me mountain biking, watching sports, reading, or looking at charts. Warwick main for life.
               </p>
           </div>
           <div className="text-5xl cursor-pointer flex justify-center gap-4 py-3 text-gray-600">
@@ -60,10 +61,10 @@ export default function Home() {
                   <div className="flex flex-wrap gap-15 text-3xl justify-evenly pb-10 mt-6">
                       <p className="text-gray-800 px-10 py-5"><SiPython/>Python</p>
                       <p className="text-gray-800 px-10 py-5"><SiJavascript/>Javascript</p>
+                      <p className="text-gray-800 px-10 py-5"><SiTypescript/>Typescript</p>
                       <p className="text-gray-800 px-10 py-5 "><SiCplusplus/>C++</p>
-
                   </div>
-              <h4 className="text-md pt-4 text-center justify-self-center">
+              <h4 className="text-md text-center pb-4 justify-self-center">
                   My favorite languages for systems programming, software engineering, and data analysis.
               </h4>
               </div>
@@ -76,11 +77,10 @@ export default function Home() {
                     <p className="text-gray-800 px-1"><SiCss3/>CSS</p>
                     <p className="text-gray-800 px-1"><SiReact/>React</p>
                     <p className="text-gray-800 px-1"><SiNextdotjs/>Next.js</p>
-                    <p className="text-gray-800 px-1"><SiFigma/>Figma</p>
                     <p className="text-gray-800 px-1 py-1"><SiTailwindcss/>Tailwind CSS</p>
                     <p className="text-gray-800 px-1 py-1"><SiChakraui/>Chakra UI</p>
                   </div>
-                  <h4 className="text-md pt-4 text-center justify-self-center">
+                  <h4 className="text-md pt-24 text-center justify-self-center">
                       My preferred technologies for front-end web development and component design.
                   </h4>
               </div>
@@ -98,7 +98,7 @@ export default function Home() {
                       <p className="text-gray-800 py-1"><SiSelenium/>Selenium</p>
                       <p className="text-gray-800 py-1"><SiNumpy/>Numpy</p>
                   </div>
-                  <h4 className="text-md pt-4 text-center justify-self-center">
+                  <h4 className="text-md pt-24 text-center justify-self-center">
                       My preferred technologies for back-end web programming, database architecture, and my favorite python packages.
                   </h4>
               </div>
@@ -178,7 +178,7 @@ export default function Home() {
             <div className="flex-1 flex-wrap w-50 h-50">
                 <ul className="flex-2 flex-wrap">
                     <div className="flex origin-right px-10">
-                        <img src="/greaterpharrchamber.PNG" alt="Design icon"/>
+                        <img src="/greaterpharrchamber.PNG" alt="Design icon" width={700} height={400}/>
                     </div>
                     <li className="flex-5 flex-col text-right">
                         <h4 className="text-4xl font-semibold pt-1 pb-6">
@@ -186,9 +186,15 @@ export default function Home() {
                         </h4>
                     </li>
                     <li className="flex-3 flex-col text-right">
-                        <p>This website was built for a client using Next.js, React, Tailwind CSS, Typescript, and Node. This was my first time trying the app router for
-                            Next.JS 13 and was a great learning experience making a lightweight, front-facing website with a modern tech stack. The website has CRUD functionality
-                            and an integrated 3rd party CRM software.
+                        <p>This website has been created using a stack of modern technologies -
+                            Next.js, React, Tailwind CSS, Typescript, and Node.
+                            It's an embodiment of the dynamic and responsive digital experiences I aim to provide to commercial clients.
+                            The design and construction of this lightweight, front-facing website involved careful planning and execution,
+                            all while maintaining a focus on delivering a user-friendly, interactive interface.
+                            With its streamlined design and crisp aesthetic, the website offers an engaging user experience,
+                            while keeping load times to a minimum. One of the key highlights of this project was the seamless
+                            integration of a 3rd party CRM software. This integration not only amplifies the website's
+                            operational efficiency but also provides robust customer management capabilities.
                         </p>
                     </li>
                 </ul>
@@ -198,7 +204,7 @@ export default function Home() {
             <div className="flex-1 flex-wrap w-50 h-50">
                 <ul className="flex-2 flex-wrap">
                     <div className="flex origin-right px-10">
-                        <img src="/hungrylion.PNG" alt="Design icon"/>
+                        <img src="/hungrylion.PNG" alt="Design icon" width={700} height={400}/>
                     </div>
                     <li className="flex-5 flex-col text-right">
                         <h4 className="text-4xl font-semibold pt-1 pb-6">
@@ -206,10 +212,16 @@ export default function Home() {
                         </h4>
                     </li>
                     <li className="flex-3 flex-col text-right">
-                        <p>Project was built for the Hack Weekly hackathon where hundreds of users create teams and compete against each other. We were tasked with
-                            building a recipe app client that showed recipes from an API. I worked on the design and front-end development for the project and learned in a group of 8
-                            how to use Figma to create a clean and modern UI for the front-end team. Our team was a group of 8 intermediate programmers and we all
-                            learned how communicate efficiently and hold each team accountable. Source code can be found
+                        <p>The project was conceived as part of the Hack Weekly hackathon,
+                            a platform where numerous creative minds gathered to form teams
+                            and pit their skills against each other. We were presented with an intriguing challenge –
+                            to build a recipe app client using a designated API.
+                            I was primarily responsible for the design and front-end development aspects of the project. I took the lead in molding a user-friendly interface,
+                            while ensuring that the front-end development seamlessly aligns with the project's overall objectives. Our team was a dynamic mix of 8 intermediate programmers.
+                            Throughout the project, we all learned the importance of effective communication in ensuring the smooth
+                            functioning of our team. We worked in tandem, held each other accountable, and created an atmosphere
+                            of shared responsibility. This experience has been instrumental in honing our teamwork and collaboration skills,
+                            alongside our technical capabilities. You can find the source code
                             <a href="https://github.com/Hack-Weekly/cerulean-lion-recipe-app"><span className="text-teal-600"> here. </span></a>
                         </p>
                     </li>

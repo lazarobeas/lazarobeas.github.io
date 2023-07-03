@@ -28,7 +28,7 @@ export default function Home() {
               </ul>
           </nav>
           <div className="relative mx-auto rounded-full w-80 h-80 mt-20">
-              <img src="/headshotLBEAS.jpg" alt="my beautiful face"/>
+              <Image src="/headshotLBEAS.jpg" alt="my beautiful face"/>
           </div>
           <div className="text-center p-10">
               <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">Lazaro Beas</h2>
@@ -127,7 +127,7 @@ export default function Home() {
                 <ul className="flex-2 flex-wrap">
                     <li className="flex-5 flex-col-reverse px-12">
                             <a href="http://propsniper.io">
-                            <img src="/home.png" alt="Homepage propsniper.io" width={500} height={300} />
+                            <Image src="/home.png" alt="Homepage propsniper.io" width={500} height={300} />
                             </a>
                         <h4 className="text-4xl font-semibold pt-5 pb-6 text-right">
                             NBA Player Point Prediction Model
@@ -154,7 +154,7 @@ export default function Home() {
             <div className="flex-1 flex-wrap w-50 h-50">
                 <ul className="flex-2 flex-wrap">
                     <div className="flex origin-right px-10">
-                    <img src="/design.png" alt="Design icon"/>
+                    <Image src="/design.png" alt="Design icon"/>
                     </div>
                     <li className="flex-5 flex-col text-right">
                         <h4 className="text-4xl font-semibold pt-1 pb-6">
@@ -178,7 +178,7 @@ export default function Home() {
             <div className="flex-1 flex-wrap w-50 h-50">
                 <ul className="flex-2 flex-wrap">
                     <div className="flex origin-right px-10">
-                        <img src="/greaterpharrchamber.PNG" alt="Design icon" width={700} height={400}/>
+                        <Image src="/greaterpharrchamber.PNG" alt="Design icon" width={700} height={400}/>
                     </div>
                     <li className="flex-5 flex-col text-right">
                         <h4 className="text-4xl font-semibold pt-1 pb-6">
@@ -188,12 +188,12 @@ export default function Home() {
                     <li className="flex-3 flex-col text-right">
                         <p>This website has been created using a stack of modern technologies -
                             Next.js, React, Tailwind CSS, Typescript, and Node.
-                            It's an embodiment of the dynamic and responsive digital experiences I aim to provide to commercial clients.
+                            It&amp;s an embodiment of the dynamic and responsive digital experiences I aim to provide to commercial clients.
                             The design and construction of this lightweight, front-facing website involved careful planning and execution,
                             all while maintaining a focus on delivering a user-friendly, interactive interface.
                             With its streamlined design and crisp aesthetic, the website offers an engaging user experience,
                             while keeping load times to a minimum. One of the key highlights of this project was the seamless
-                            integration of a 3rd party CRM software. This integration not only amplifies the website's
+                            integration of a 3rd party CRM software. This integration not only amplifies the website&amp;s
                             operational efficiency but also provides robust customer management capabilities.
                         </p>
                     </li>
@@ -204,7 +204,7 @@ export default function Home() {
             <div className="flex-1 flex-wrap w-50 h-50">
                 <ul className="flex-2 flex-wrap">
                     <div className="flex origin-right px-10">
-                        <img src="/hungrylion.PNG" alt="Design icon" width={700} height={400}/>
+                        <Image src="/hungrylion.PNG" alt="Design icon" width={700} height={400}/>
                     </div>
                     <li className="flex-5 flex-col text-right">
                         <h4 className="text-4xl font-semibold pt-1 pb-6">
@@ -217,7 +217,7 @@ export default function Home() {
                             and pit their skills against each other. We were presented with an intriguing challenge –
                             to build a recipe app client using a designated API.
                             I was primarily responsible for the design and front-end development aspects of the project. I took the lead in molding a user-friendly interface,
-                            while ensuring that the front-end development seamlessly aligns with the project's overall objectives. Our team was a dynamic mix of 8 intermediate programmers.
+                            while ensuring that the front-end development seamlessly aligns with the project&amp;s overall objectives. Our team was a dynamic mix of 8 intermediate programmers.
                             Throughout the project, we all learned the importance of effective communication in ensuring the smooth
                             functioning of our team. We worked in tandem, held each other accountable, and created an atmosphere
                             of shared responsibility. This experience has been instrumental in honing our teamwork and collaboration skills,

@@ -1,4 +1,3 @@
-import img from 'next/img';
 import { BsLinkedin, BsYoutube, BsMedium} from "react-icons/bs";
 import {GoMarkGithub} from "react-icons/go";
 import {

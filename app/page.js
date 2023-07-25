@@ -1,3 +1,4 @@
+'use client'
 import { BsLinkedin, BsYoutube, BsMedium} from "react-icons/bs";
 import {GoMarkGithub} from "react-icons/go";
 import {
@@ -8,6 +9,8 @@ import {
     SiCplusplus, SiGithub, SiNextdotjs, SiDocker,
     SiGit, SiMongodb, SiChakraui, SiNodedotjs, SiYarn, SiTypescript
 } from "react-icons/si";
+import {TypeAnimation} from "react-type-animation";
+
 
 export default function Home() {
   return (
@@ -30,8 +33,18 @@ export default function Home() {
               <img src="/headshotLBEAS.jpg" alt="my beautiful face"/>
           </div>
           <div className="text-center p-10">
+
               <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">Lazaro Beas</h2>
-              <h3 className="text-xl py-2 md:text-3xl">Software Engineer ● Full Stack Developer ● Student</h3>
+              <TypeAnimation
+                  sequence={[
+                      'Software Engineer ● Full Stack Developer ● Student',
+                      2000,
+                  ]}
+                  wrapper="h2"
+                  speed={30}
+                  style={{ fontSize: '2em', display: 'inline-block' , fontStyle:'inherit',}}
+                  repeat={Infinity}
+              />
               <p className="text-md py-4 leading-8 text-gray-800 md:text-xl">
                   I am a hardworking Senior Computer Science & Finance double major at the University of Texas Rio Grande Valley. My first love is
                   Python but am currently learning C++ and R. I enjoy programming and am currently seeking an data science/software engineering internship
@@ -142,9 +155,9 @@ export default function Home() {
                             considered as I looked to prevent overfitting and high accuracy scores.
                             I preprocessed data by creating dummy variables for new features such as home/away game advantage,
                             and binarized the target variable based on a threshold of x points. Front-end built with Next.js
-                            and Chakra UI. I also routed RESTful APIs that interacts with the player models and front end. Source code can be found
+                            and Chakra UI. I also routed RESTful APIs that interacts with the python player models and the front end. Source code can be found
                             <a href="https://github.com/lazarobeas/NBAProject"><span className="text-teal-600"> here </span></a>or you can check my Github.
-                            You can also click the blue icon to try it out yourself!</p>
+                            You can also click the picture to try it out yourself!</p>
                     </li>
                 </ul>
             </div>
@@ -185,14 +198,14 @@ export default function Home() {
                         </h4>
                     </li>
                     <li className="flex-3 flex-col text-right">
-                        <p>This website has been created using a stack of modern technologies -
+                        <p>This website was created using a stack of modern technologies -
                             Next.js, React, Tailwind CSS, Typescript, and Node.
-                            It&amp;s an embodiment of the dynamic and responsive digital experiences I aim to provide to commercial clients.
+                            It&aps;s an example of the dynamic and responsive digital experiences I aim to provide to commercial clients.
                             The design and construction of this lightweight, front-facing website involved careful planning and execution,
                             all while maintaining a focus on delivering a user-friendly, interactive interface.
-                            With its streamlined design and crisp aesthetic, the website offers an engaging user experience,
+                            The website offers an engaging user experience,
                             while keeping load times to a minimum. One of the key highlights of this project was the seamless
-                            integration of a 3rd party CRM software. This integration not only amplifies the website&amp;s
+                            integration of a 3rd party CRM software. This integration not only amplifies the website&aps;s
                             operational efficiency but also provides robust customer management capabilities.
                         </p>
                     </li>
@@ -211,17 +224,17 @@ export default function Home() {
                         </h4>
                     </li>
                     <li className="flex-3 flex-col text-right">
-                        <p>The project was conceived as part of the Hack Weekly hackathon,
-                            a platform where numerous creative minds gathered to form teams
+                        <p>The project was created as part of the Hack Weekly hackathon,
+                            a platform where participants gathered to form teams
                             and pit their skills against each other. We were presented with an intriguing challenge –
                             to build a recipe app client using a designated API.
-                            I was primarily responsible for the design and front-end development aspects of the project. I took the lead in molding a user-friendly interface,
-                            while ensuring that the front-end development seamlessly aligns with the project&amp;s overall objectives. Our team was a dynamic mix of 8 intermediate programmers.
+                            I was primarily responsible for the design and front-end development aspects of the project. I took the lead in designing a user-friendly interface,
+                            while ensuring that the front-end development seamlessly aligns with the project&aps;s overall objectives. Our team was a dynamic mix of 6 intermediate programmers.
                             Throughout the project, we all learned the importance of effective communication in ensuring the smooth
                             functioning of our team. We worked in tandem, held each other accountable, and created an atmosphere
                             of shared responsibility. This experience has been instrumental in honing our teamwork and collaboration skills,
                             alongside our technical capabilities. You can find the source code
-                            <a href="https://github.com/Hack-Weekly/cerulean-lion-recipe-app"><span className="text-teal-600"> here. </span></a>
+                            <a href="https://github.com/Hack-Weekly/cerulean-lion-recipe-app"><span className="text-teal-600"> here.</span></a>
                         </p>
                     </li>
                 </ul>

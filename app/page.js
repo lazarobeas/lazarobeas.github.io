@@ -21,7 +21,7 @@ export default function Home() {
               <ul className="flex items-center">
                   <li>
                       <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-3 py-2 rounded-xl ml-5"
-                          href="https://drive.google.com/file/d/1XELoNspWbiK1Ufo_hmZF_HXKTGOGffY7/view?usp=sharing">
+                          href="https://drive.google.com/file/d/1TSXpG6zLOPzFtvHbT0b7z7_a91XQCL_H/view?usp=sharing">
                           Resume</a>
                   </li>
                   {/*<li>*/}
@@ -190,11 +190,11 @@ export default function Home() {
             <div className="flex-1 flex-wrap w-50 h-50">
                 <ul className="flex-2 flex-wrap">
                     <div className="flex origin-right px-10">
-                        <img src="/greaterpharrchamber.PNG" alt="Design icon" width={700} height={400}/>
+                        <img src="/edcon.PNG" alt="Design icon" width={700} height={400}/>
                     </div>
                     <li className="flex-5 flex-col text-right">
                         <h4 className="text-4xl font-semibold pt-1 pb-6">
-                            Greater Pharr Chamber Website
+                            EDCON Website
                         </h4>
                     </li>
                     <li className="flex-3 flex-col text-right">
@@ -203,10 +203,8 @@ export default function Home() {
                             It&aps;s an example of the dynamic and responsive digital experiences I aim to provide to commercial clients.
                             The design and construction of this lightweight, front-facing website involved careful planning and execution,
                             all while maintaining a focus on delivering a user-friendly, interactive interface.
-                            The website offers an engaging user experience,
-                            while keeping load times to a minimum. One of the key highlights of this project was the seamless
-                            integration of a 3rd party CRM software. This integration not only amplifies the website&aps;s
-                            operational efficiency but also provides robust customer management capabilities.
+                            Live website
+                            <a href="https://edcon-web.vercel.app/"><span className="text-teal-600"> here.</span></a>
                         </p>
                     </li>
                 </ul>

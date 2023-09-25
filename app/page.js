@@ -190,7 +190,9 @@ export default function Home() {
             <div className="flex-1 flex-wrap w-50 h-50">
                 <ul className="flex-2 flex-wrap">
                     <div className="flex origin-right px-10">
+                        <a href="https://edcon-web.vercel.app/">
                         <img src="/edcon.PNG" alt="Design icon" width={700} height={400}/>
+                        </a>
                     </div>
                     <li className="flex-5 flex-col text-right">
                         <h4 className="text-4xl font-semibold pt-1 pb-6">
@@ -198,12 +200,7 @@ export default function Home() {
                         </h4>
                     </li>
                     <li className="flex-3 flex-col text-right">
-                        <p>This website was created using a stack of modern technologies -
-                            Next.js, React, Tailwind CSS, Typescript, and Node.
-                            It&aps;s an example of the dynamic and responsive digital experiences I aim to provide to commercial clients.
-                            The design and construction of this lightweight, front-facing website involved careful planning and execution,
-                            all while maintaining a focus on delivering a user-friendly, interactive interface.
-                            Live website
+                        <p>This website was meticulously crafted employing a blend of modern technologies including Next.js, React, Tailwind CSS, TypeScript, and Node, epitomizing the dynamic, responsive digital experience I strive to deliver to commercial clientele. Especially tailored for an engineering firm, the platform seamlessly integrates API requests for contact forms, acting as a conduit to funnel prospective customers through various informative pages. The journey from concept to live website entailed rigorous planning and execution, all the while adhering to the objective of furnishing a user-centric, interactive interface. This lightweight, front-facing digital asset not only serves as a testament to meticulous design and construction but also as an effective tool in capturing and engaging potential business inquiries for the client. The live website now stands as a vibrant representation of the firm, accentuating their market presence through a sleek, intuitive digital platform. Live website
                             <a href="https://edcon-web.vercel.app/"><span className="text-teal-600"> here.</span></a>
                         </p>
                     </li>

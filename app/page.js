@@ -190,7 +190,7 @@ export default function Home() {
             <div className="flex-1 flex-wrap w-50 h-50">
                 <ul className="flex-2 flex-wrap">
                     <div className="flex origin-right px-10">
-                        <a href="https://edcon-web.vercel.app/">
+                        <a href="https://edconbuilders.com">
                         <img src="/edcon.PNG" alt="Design icon" width={700} height={400}/>
                         </a>
                     </div>

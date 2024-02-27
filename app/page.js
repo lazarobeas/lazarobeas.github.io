@@ -46,9 +46,9 @@ export default function Home() {
                   repeat={Infinity}
               />
               <p className="text-md py-4 leading-8 text-gray-800 md:text-xl">
-                  I am a hardworking Senior Computer Science & Finance double major at the University of Texas Rio Grande Valley. My first love is
-                  Python but am currently learning C++ and R. I enjoy programming and am currently seeking an data science/software engineering internship
-                  or a freelance gig. I am a big fan of problem solving and love managing data. I also have experience working
+                  I am a hardworking Computer Science & Finance double major student at the University of Texas Rio Grande Valley. My first love is
+                  Python but am currently learning C++ and Java. I always enjoy taking on new projects or building software. Have an idea in mind?
+                  Please reach out! I am a big fan of problem solving and love managing data. I also have experience working
                   in teams. In my spare time,
                   you can find me mountain biking, watching sports, reading, or looking at charts. Warwick main for life.
               </p>

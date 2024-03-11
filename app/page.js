@@ -201,7 +201,7 @@ export default function Home() {
                     </li>
                     <li className="flex-3 flex-col text-right">
                         <p>This website was created using modern technologies including Next.js, React, Tailwind CSS, TypeScript, and Node, epitomizing the dynamic, responsive digital experience I strive to deliver to commercial projects. Tailored for an engineering firm, the platform seamlessly integrates API requests for contact forms, acting as a conduit to funnel prospective customers through various informative pages. The journey from concept to live website entailed planning and execution, all the while adhering to the goals of the client. This lightweight, front-facing website also serves as an effective tool in capturing and engaging potential business inquiries for the client. The live website now stands as a vibrant representation of the firm. Live website
-                            <a href="https://edcon-web.vercel.app/"><span className="text-teal-600"> here.</span></a>
+                            <a href="https://edconbuilders.com"><span className="text-teal-600"> here.</span></a>
                         </p>
                     </li>
                 </ul>

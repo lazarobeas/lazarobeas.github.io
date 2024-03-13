@@ -50,7 +50,7 @@ export default function Home() {
                   Python but am currently learning C++ and Java. I always enjoy taking on new projects or building software. Have an idea in mind?
                   Please reach out! I am a big fan of problem solving and love managing data. I also have experience working
                   in teams. In my spare time,
-                  you can find me mountain biking, watching sports, reading, or looking at charts. Warwick main for life.
+                  you can find me mountain biking, watching sports, reading, or playing games. Zac main for life.
               </p>
           </div>
           <div className="text-5xl cursor-pointer flex justify-center gap-4 py-3 text-gray-600">

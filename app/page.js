@@ -190,19 +190,18 @@ export default function Home() {
             <div className="flex-1 flex-wrap w-50 h-50">
                 <ul className="flex-2 flex-wrap">
                     <div className="flex origin-right px-10">
-                        <a href="https://edconbuilders.com">
-                        <img src="/edcon.PNG" alt="Design icon" width={700} height={400}/>
+                        <a href="https://uniblockstudio.com">
+                        <img src="/uniblock.PNG" alt="Design icon" width={700} height={400}/>
                         </a>
                     </div>
                     <li className="flex-5 flex-col text-right">
                         <h4 className="text-4xl font-semibold pt-1 pb-6">
-                            EDCON Website
+                            Uniblock Studio
                         </h4>
                     </li>
                     <li className="flex-3 flex-col text-right">
-                        <p>This website was created using modern technologies including Next.js, React, Tailwind CSS, TypeScript, and Node, epitomizing the dynamic, responsive digital experience I strive to deliver to commercial projects. Tailored for an engineering firm, the platform seamlessly integrates API requests for contact forms, acting as a conduit to funnel prospective customers through various informative pages. The journey from concept to live website entailed planning and execution, all the while adhering to the goals of the client. This lightweight, front-facing website also serves as an effective tool in capturing and engaging potential business inquiries for the client. The live website now stands as a vibrant representation of the firm. Live website
-                            <a href="https://edconbuilders.com"><span className="text-teal-600"> here.</span></a>
-                        </p>
+                        <p> Uniblock Studio is a cutting-edge web development studio based in McAllen, Texas. Our mission is to craft modern, visually stunning websites that leverage the power of advanced technology stacks like Next.js and Svelte. By harnessing these innovative tools, we deliver seamless, responsive digital experiences that captivate users and drive business growth. Our team of skilled developers and designers collaborates closely with clients to understand their unique needs and goals, ensuring each project is tailored to their specific requirements. From conceptualization to deployment, we prioritize clean code, intuitive design, and optimal performance to create websites that stand out the competitive digital landscape. 
+                                    At Uniblock Studio, we are committed to staying at the forefront of web development trends and techniques, allowing us to deliver exceptional results that exceed expectations. </p>
                     </li>
                 </ul>
             </div>

@@ -46,10 +46,11 @@ export default function Home() {
                   repeat={Infinity}
               />
               <p className="text-md py-4 leading-8 text-gray-800 md:text-xl">
-                  I am a hardworking Computer Science & Finance double major student at the University of Texas Rio Grande Valley. My first love is
-                  Python but am currently learning C++ and Java. I always enjoy taking on new projects or building software. Have an idea in mind?
-                  Please reach out! I am a big fan of problem solving and love managing data. I also have experience working
-                  in teams. In my spare time,
+                  I am a Computer Science & Finance student at the University of Texas - Rio Grande Valley. Currently, I work
+                  as an intern @ BNY for the FX Markets Engineering team.
+                  I always enjoy taking on new projects or building software. Have an idea in mind?
+                  Please reach out! I am a big fan of problem solving and love managing data.
+                  I have plenty of experience working in teams. In my spare time,
                   you can find me mountain biking, watching sports, reading, or playing games. Zac main for life.
               </p>
           </div>
@@ -151,7 +152,7 @@ export default function Home() {
                             NBA game based on historical game data. The model accuracy ranged from 65%-33% with an
                             average of 54% in a 1-month period. I also leveraged NBA-API to facilitate data collection and
                             created my own dataset containing a player game splits. Used over 10,000 player data points to train various models,
-                            such as logistic regresssions, gradient boosting, & XGBoost. Feature engineering and hyperparameter tuning was also
+                            such as logistic regressions, gradient boosting, & XGBoost. Feature engineering and hyper parameter tuning was also
                             considered as I looked to prevent overfitting and high accuracy scores.
                             I preprocessed data by creating dummy variables for new features such as home/away game advantage,
                             and binarized the target variable based on a threshold of x points. Front-end built with Next.js
@@ -174,7 +175,7 @@ export default function Home() {
                         </h4>
                     </li>
                     <li className="flex-3 flex-col text-right">
-                        <p>Using Python, Selenium, and Pandas, I succesfully built a webscraper that can be deployed on the PrizePicks DFS website
+                        <p>Using Python, Selenium, and Pandas, I successfully built a web scraper that can be deployed on the PrizePicks DFS website
                             and retrieves all of the posted lines and props for a specific sport. It then renders all of the data
                             into a .csv file filtered by player, prop type, and sport. This data is stored in a local database to make prop research more efficient.
                             Source code can be found

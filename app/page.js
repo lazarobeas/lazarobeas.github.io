@@ -22,7 +22,7 @@ export default function Home() {
                   <li>
                       <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-3 py-2 rounded-xl ml-5"
                           href="https://drive.google.com/file/d/1hfwKzKaKp6TC0DmOht3iw_pLocNCQjWw/view?usp=sharing">
-                          Resume</a>
+                          Resume </a>
                   </li>
                   {/*<li>*/}
                   {/*    <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-3 py-2 rounded-xl ml-5" href="#">Projects</a>*/}

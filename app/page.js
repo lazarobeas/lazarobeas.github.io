@@ -46,12 +46,12 @@ export default function Home() {
                   repeat={Infinity}
               />
               <p className="text-md py-4 leading-8 text-gray-800 md:text-xl">
-                  I am a Computer Science & Finance student at the University of Texas - Rio Grande Valley. Currently, I work
+                  I am a Computer Science & Finance student at the University of Texas - Rio Grande Valley. Previously, I have worked
                   as an intern @ BNY for the FX Markets Engineering team.
                   I always enjoy taking on new projects or building software. Have an idea in mind?
                   Please reach out! I am a big fan of problem solving and love managing data.
                   I have plenty of experience working in teams. In my spare time,
-                  you can find me mountain biking, watching sports, reading, or playing games. Zac main for life.
+                  you can find me mountain biking, watching sports, reading, or playing games. Garen main for life.
               </p>
           </div>
           <div className="text-5xl cursor-pointer flex justify-center gap-4 py-3 text-gray-600">

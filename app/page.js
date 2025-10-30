@@ -21,7 +21,7 @@ export default function Home() {
               <ul className="flex items-center">
                   <li>
                       <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-3 py-2 rounded-xl ml-5"
-                          href="https://drive.google.com/file/d/1w8dbQmd87RwvIVaQJX2OcEIS7Sgmv_z6/view?usp=sharing">
+                          href="https://drive.google.com/file/d/10U0jyjHTcpejV-HUYAyGihgarhtnSs6X/view?usp=sharing">
                           Resume </a>
                   </li>
                   {/*<li>*/}
